@@ -1,0 +1,25 @@
+@{
+}
+<h1 class="text-success">İletişim formu:</h1>
+<hr>
+<form asp-action="Index" asp-asp-controller="Home">
+  <div class="mb-3">
+    <label for="nameSurname" class="form-label">Ad-Soyad</label>
+    <input type="text" class="form-control" id="nameSurname"placeholder="Ad ve Soyad giriniz">
+  </div>
+  <div class="mb-3">
+  <label for="email">Email:</label>
+  <input type="email" class="form-control"id="email" placeholder="Email adresinizi giriniz">
+  </div>
+  <div class="mb-3">
+    <label for="subject" class="form-label">Konu</label>
+    <input type="subject" class="form-control" id="subject" placeholder="Konu bilgisini giriniz">
+  </div>
+    <div class="mb-3">
+    <label for="message" class="form-label">Mesaj</label>
+    <textarea class="form-control" id="message" placeholder="Mesajınızı giriniz"> </textarea>
+  </div>
+   
+  
+  <button type="submit" class="btn btn-primary">Gönder</button>
+</form>
